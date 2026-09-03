@@ -87,3 +87,5 @@ Tool calls send their arguments to Slite's hosted service. Only send content tha
 The plugin configuration and documentation are licensed under the [MIT License](LICENSE). The Slite name and logo remain Slite's trademarks. The license does not grant trademark rights or license Slite's hosted service or server implementation.
 
 Logo source: [Slite's official square icon](https://storage.googleapis.com/slite-cdn/slite-assets/apple-touch-icon.png?v=2).
+
+An alternate [square SVG](assets/slite-symbol-square.svg) preserves the [original symbol](https://storage.googleapis.com/slite-cdn/assets/2025/Slite_Symbol.svg). Only its canvas changes: 8 units of transparent space are added on each side, with no change to the symbol's paths, color, or proportions.
