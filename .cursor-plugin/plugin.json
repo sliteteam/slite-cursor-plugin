@@ -1,0 +1,16 @@
+{
+  "name": "slite",
+  "displayName": "Slite",
+  "version": "1.0.0",
+  "description": "Connect Cursor to Slite, the AI knowledge base for self-maintaining docs. Search company knowledge, get cited answers, create and update docs, and prepare knowledge maintenance changes for review.",
+  "author": {
+    "name": "Slite",
+    "email": "support@slite.com"
+  },
+  "homepage": "https://slite.com",
+  "repository": "https://github.com/sliteteam/slite-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["slite", "ai knowledge base", "knowledge base", "self-maintaining docs", "documentation", "company knowledge", "mcp"],
+  "logo": "assets/slite-logo.png",
+  "mcpServers": "mcp.json"
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "slite": {
+      "url": "https://api.slite.com/mcp"
+    }
+  }
+}
