@@ -75,7 +75,7 @@ Slite Agent and maintenance workflows can return a proposal and a Slite review l
 
 ## Local plugin test
 
-To test the package itself, place this repository at `~/.cursor/plugins/local/slite`, then restart Cursor or run **Developer: Reload Window**. Confirm that Slite appears in Customize and that its MCP server is available. Your team's policy must allow local plugin imports.
+To test the package itself, open **Customize → Plugins → Add → From Local Repository** and select this repository. Its marketplace manifest points to the Slite plugin at the repository root. Confirm that Slite appears in Customize and that its MCP server is available. Your team's policy must allow local plugin imports.
 
 For a read-only connection check, sign in to Slite, search for a document you can access, and read that document. Test writes only with disposable content that you have permission to change.
 

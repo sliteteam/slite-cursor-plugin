@@ -1,0 +1,16 @@
+{
+  "name": "slite",
+  "owner": {
+    "name": "Slite",
+    "email": "support@slite.com"
+  },
+  "metadata": {
+    "description": "Slite AI knowledge base and self-maintaining docs for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "slite",
+      "source": "."
+    }
+  ]
+}
