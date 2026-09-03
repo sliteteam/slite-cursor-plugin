@@ -4,9 +4,7 @@
 
 **Your team's AI knowledge base, with self-maintaining docs.**
 
-Connect Cursor to [Slite](https://slite.com) to bring trusted company knowledge into your work. Search your knowledge base and the workplace sources connected to Slite, get answers with citations, and turn findings into useful documentation.
-
-Slite's self-maintaining docs help teams keep knowledge current. Through this connector, you can use Slite Agent and knowledge maintenance workflows to find outdated or conflicting information and prepare changes for human review in Slite.
+Connect Cursor to [Slite](https://slite.com) to search company knowledge, get cited answers, and create and update docs. Slite Agent and knowledge maintenance workflows help you find outdated or conflicting information and prepare changes for review in Slite.
 
 ## What you can do
 
@@ -57,21 +55,17 @@ See [Cursor's MCP documentation](https://cursor.com/docs/context/mcp) and the [S
 - "Review this Slite document tree for outdated or conflicting information and prepare changes for review."
 - "Summarize the unresolved comments on this Slite launch plan."
 
-These are example requests, not claims that specific test fixtures exist in your workspace.
-
 ## How it works
 
-This plugin contains metadata, the Slite logo, and a remote MCP configuration. It connects to Slite's hosted **Streamable HTTP** MCP endpoint at `https://api.slite.com/mcp`. It contains no local executables, install scripts, hooks, or bundled server implementation.
-
-Slite uses OAuth 2.0 with PKCE. The client discovers the authorization endpoints from the server metadata. Do not place credentials in this repository or in the server URL.
+This plugin connects to Slite's hosted **Streamable HTTP** MCP endpoint at `https://api.slite.com/mcp`. It uses OAuth 2.0 with PKCE and requires no local server.
 
 Slite enforces the connected user's existing permissions. Connected workplace sources are accessed through Slite; the plugin does not configure separate connections to those services.
 
 ### Writes and review
 
-The MCP server exposes both read and write tools. Direct document tools can change workspace content when invoked. Review the proposed change and the destination before you authorize a write, and use Cursor's tool controls to restrict access as needed.
+Direct document tools can change workspace content. Review the proposed change and destination before authorizing a write. Use Cursor's tool controls to restrict access as needed.
 
-Slite Agent and maintenance workflows can return a proposal and a Slite review link. These proposals require human review in Slite before application; this is separate from the direct document write tools. Long-running agent tasks can return a thread ID for progress checks and follow-up.
+Slite Agent and maintenance workflows can return proposals that require human review in Slite before application. Long-running agent tasks return a thread ID for progress checks and follow-up.
 
 ## Local plugin test
 
@@ -92,4 +86,4 @@ Tool calls send their arguments to Slite's hosted service. Only send content tha
 
 The plugin configuration and documentation are licensed under the [MIT License](LICENSE). The Slite name and logo remain Slite's trademarks. The license does not grant trademark rights or license Slite's hosted service or server implementation.
 
-The logo in `assets/slite-logo.png` is the official square icon published on [slite.com](https://slite.com), retrieved from its linked [public asset](https://storage.googleapis.com/slite-cdn/slite-assets/apple-touch-icon.png?v=2).
+Logo source: [Slite's official square icon](https://storage.googleapis.com/slite-cdn/slite-assets/apple-touch-icon.png?v=2).

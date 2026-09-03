@@ -2,7 +2,7 @@
   "name": "slite",
   "displayName": "Slite",
   "version": "1.0.0",
-  "description": "Connect Cursor to Slite, the AI knowledge base for self-maintaining docs. Search company knowledge, get cited answers, create and update docs, and prepare knowledge maintenance changes for review.",
+  "description": "Your team's AI knowledge base, with self-maintaining docs. Search company knowledge, get cited answers, and create and update docs from Cursor.",
   "author": {
     "name": "Slite",
     "email": "support@slite.com"
